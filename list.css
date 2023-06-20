@@ -1,0 +1,57 @@
+body 
+{
+background-image: url('https://static.vecteezy.com/system/resources/previews/007/410/558/non_2x/minimalist-pastel-color-blob-aesthetic-background-wallpaper-template-poster-free-vector.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height:50vh;
+font-family: 'Times New Roman', Times, serif;
+color:var(--secondary-text-color);
+}
+:root{
+    --primary-text-color:#9b4d82;
+    --secondary-text-color:#03082f;
+    --accent-color:#9b4d82;
+    --padding-inline-section:20px;
+}
+.container {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+}
+
+.event {
+    background-color:rgba(176, 118, 196, 0.404);
+    padding: 5px;
+    margin: 5px;
+    cursor: move;
+}
+#reset
+{
+  background-color: #c0a9d3;
+  width:5rem;
+}
+.reset-container
+{
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.primary-button
+{
+    background-color: var(--accent-color);
+    border-radius: 6px;
+    font-weight: 700;
+    padding:12px 24px;
+    box-shadow: var(--primary-text-color);
+    transition: 0.2s ease-out;
+}
+.primary-button:hover{
+    background-color:pink;
+}
+.si
+{
+    text-align: center;}
